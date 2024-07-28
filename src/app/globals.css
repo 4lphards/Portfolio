@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-shadow {
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.25);
+}
