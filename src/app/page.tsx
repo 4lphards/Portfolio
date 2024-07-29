@@ -90,7 +90,7 @@ function Home() {
       </div>
       <div className=" pt-8 md:pl-28 md:pt-0 md:pb-16">
         <div className="text-white text-2xl pt-72 pl-4 relative md:pt-0 md:text-4xl ">
-          <h1>I'M <span className="text-[#FFA234] text-4xl md:text-6xl">Maulana Yusuf</span></h1>
+          <h1>I’M <span className="text-[#FFA234] text-4xl md:text-6xl">Maulana Yusuf</span></h1>
           <div className="flex gap-2"> a <Typewriter 
             options={{
               strings: ['Software Engineer', 'Fullstack Developer', 'Tech Enthusiast'],
