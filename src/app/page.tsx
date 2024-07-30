@@ -114,11 +114,11 @@ function Home() {
 function About() {
   return (
     <div id="about" className="h-[667px] md:h-screen bg-[#303030] flex flex-col gap-3">
-      <div className="p-5 text-[35px] flex flex-col md:pl-28 md:pr-28 md:pt-12 md:text-5xl md:gap-4">
+      <div className="p-5 text-[35px] flex flex-col md:pl-40 md:pr-40 md:pt-20 md:text-4xl md:gap-2">
         <p>About</p>
         <div className="flex gap-4">
-          <div className="h-1 w-9 bg-[#FFA234] flex-shrink-0 mt-3 md:w-16 md:h-[6px] md:mt-4"/> 
-          <p className="text-lg text-justify md:text-3xl">
+          <div className="h-1 w-9 bg-[#FFA234] flex-shrink-0 mt-3 md:w-16 md:h-[4px] md:mt-4"/> 
+          <p className="text-lg text-justify md:text-2xl">
             I’m an aspiring programmer who thrives on learning new things. 
             My attention to detail and problem-solving skills allow me to tackle challenges effectively. 
             Whether it’s debugging code or designing elegant solutions, 
@@ -127,39 +127,39 @@ function About() {
         </div>
       </div>
       <div className="gap-10 flex flex-col">
-        <div className="flex items-center text-[35px] flex-col gap-2 md:text-5xl md:gap-6">
+        <div className="flex items-center text-[35px] flex-col gap-2 md:text-4xl md:gap-4">
           <p>My Skills</p>
-          <div className="w-44 h-1 bg-[#FFA234] md:h-[6px] md:w-64"/>
+          <div className="w-44 h-1 bg-[#FFA234] md:h-[4px] md:w-56"/>
         </div>
         <div className="md:justify-center md:gap-[70px] gap-[50px] flex overflow-x-auto h-[175px] min-w-[115px] text-center leading-[110px">
-          <div className="md:h-[155px] md:min-w-[135px] custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px] ml-11 shadow">
+          <div className="custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px] ml-11 shadow">
             <div className="flex flex-col items-center mt-5 gap-2">
-              <Image className="md:w-[76px] md:h-[76px]" src="/Image/Flutter.png" alt="Flutter" width={66} height={66} />
-              <p className="text-xl md:text-2xl">Flutter</p>
+              <Image src="/Image/Flutter.png" alt="Flutter" width={66} height={66} />
+              <p className="text-xl">Flutter</p>
             </div>
           </div>
-          <div className="md:h-[155px] md:min-w-[135px] custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px]">
+          <div className="custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px]">
             <div className="flex flex-col items-center mt-5 gap-2">
-              <Image className="md:w-[76px] md:h-[76px]" src="/Image/CSharp.png" alt="CSharp" width={66} height={66} />
-              <p className="text-xl md:text-2xl">C#</p>
+              <Image src="/Image/CSharp.png" alt="CSharp" width={66} height={66} />
+              <p className="text-xl">C#</p>
             </div>
           </div>
-          <div className="md:h-[155px] md:min-w-[135px] custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px]">
+          <div className="custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px]">
             <div className="flex flex-col items-center mt-5 gap-2">
-              <Image className="md:w-[76px] md:h-[76px]" src="/Image/Html.png" alt="HTMl" width={66} height={66} />
-              <p className="text-xl md:text-2xl">HTML</p>
+              <Image src="/Image/Html.png" alt="HTMl" width={66} height={66} />
+              <p className="text-xl">HTML</p>
             </div>
           </div>
-          <div className="md:h-[155px] md:min-w-[135px] custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px]">
+          <div className="custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px]">
             <div className="flex flex-col items-center mt-5 gap-2">
-              <Image className="md:w-[76px] md:h-[76px]" src="/Image/Python.png" alt="Python" width={66} height={66} />
-              <p className="text-xl md:text-2xl">Python</p>
+              <Image src="/Image/Python.png" alt="Python" width={66} height={66} />
+              <p className="text-xl">Python</p>
             </div>
           </div>
-          <div className="md:h-[155px] md:min-w-[135px] custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px] mr-11">
+          <div className="custom-shadow rounded-[20px] bg-opacity-20 bg-white h-[135px] min-w-[115px] text-center leading-[20px] mr-11">
             <div className="flex flex-col items-center mt-5 gap-2">
-              <Image className="md:w-[76px] md:h-[76px]" src="/Image/JavaScript.png" alt="JavaScript" width={66} height={66} />
-              <p className="text-xl md:text-2xl">JavaScript</p>
+              <Image src="/Image/JavaScript.png" alt="JavaScript" width={66} height={66} />
+              <p className="text-xl">JavaScript</p>
             </div>
           </div>
         </div>
