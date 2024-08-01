@@ -6,12 +6,20 @@ import Link from "next/link"
 import Typewriter from "typewriter-effect"
 
 export default function Page() {
+
+  useEffect(() => {
+    // Force dark mode by adding the 'dark' class to the <html> element
+    document.documentElement.classList.add('dark');
+  }, []);
+
   return (
+    <nav className="bg-black text-white">
     <>
       <Navbar />
       <Home />
-      <About />
+      <About />    
     </>
+    </nav>
   )
 }
 
@@ -113,7 +121,7 @@ function Home() {
 
 function About() {
   return (
-    <div id="about" className="h-[667px] md:h-screen bg-[#303030] flex flex-col gap-3">
+    <div id="about" className="h-[667px] md:h-screen bg-[#303030] flex flex-col gap-8">
       <div className="p-5 text-[35px] flex flex-col md:pl-40 md:pr-40 md:pt-20 md:text-4xl md:gap-2">
         <p>About</p>
         <div className="flex gap-4">
